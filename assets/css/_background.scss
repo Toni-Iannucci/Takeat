@@ -1,0 +1,85 @@
+.firstSection {
+    background-image: url(../images/Takeat_Header.png);
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+}
+
+.secondSection {
+    article {
+        .video {
+            background-image: url(../images/video.jpg);
+        }
+    }
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.longSpan {
+    border-radius: 10px;
+    width: 83px;
+    height: 30px;
+}
+
+.shortSpan {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.green {
+    background-color: #8EB9A4;
+}
+
+.blue {
+    background-color: #8D93C3;
+}
+
+.orange {
+    background-color: #EAB589;
+}
+
+.grey {
+    background-color: #B1AEC3;
+}
+
+.red {
+    background-color: #F9908D;
+}
+
+.violet {
+    background-color: #B58DCF;
+}
+
+.cinquiemeSection {
+    width: 100%;
+    height: 1435px;
+    background-color: #1A1A2E;
+}
+
+.sixiemeSection {
+    .premiereDiv {
+        background: #1A1A2E;
+        border-radius: 12px;
+    }
+
+    .troisimeContainer {
+        margin-top: 1%;
+        background-image: url(../images/Render04.jpg);
+        border-radius: 12px;
+        width: 872px;
+        height: 447px;
+    }
+}
+footer{
+    width: 100%;
+height: 140px;
+background-color: #1A1A2E;
+}

@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Averta Cyrillic';
+    src: url('../Takeat/assets/fonts/Averta-Cyrillic-Black.otf');
+}
+
+@font-face {
+    font-family: 'Averta Cyrillic';
+    src: url('../Takeat/assets/fonts/Averta-Cyrillic-Black-italic.otf');
+}
+
+@font-face {
+    font-family: 'Averta Cyrillic';
+    src: url('../Takeat/assets/fonts/Averta-Cyrillic-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Averta Cyrillic';
+    src: url('../Takeat/assets/fonts/Averta-Cyrillic-Bold-italic.otf');
+}
+
+@font-face {
+    font-family: 'Averta Cyrillic';
+    src: url('../Takeat/assets/fonts/Averta-Cyrillic-Extra-Thin-Italic.otf');
+}
+
+@font-face {
+    font-family: 'Averta Cyrillic';
+    src: url('../Takeat/assets/fonts/Averta-Cyrillic-Extra-Thin.otf');
+}
+
+@font-face {
+    font-family: 'Averta Cyrillic';
+    src: url('../Takeat/assets/fonts/Averta-Cyrillic-Regular.otf');
+}
+
+.nav {
+    font-family: 'Averta Cy';
+    font-weight: 600;
+    text-decoration: none;
+    color: #1A1A2E;
+}
+
+.firstSection {
+    .firstText {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        color: #1A1A2E;
+    }
+
+    h1 {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 92px;
+        line-height: 100px;
+        width: 10%;
+        color: #1A1A2E;
+        text-transform: uppercase;
+        padding-bottom: 1%;
+    }
+
+    .secondText {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 40px;
+        width: 24%;
+    }
+}
+
+h2 {
+    font-family: Averta CY;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 42px;
+    width: 10%;
+    color: #1A1A2E;
+}
+
+.secondArticle,
+.troisiemeSection {
+
+    p {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #1A1A2E;
+    }
+}
+
+.divQuatre {
+    h4 {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 42px;
+        width: 64%;
+        color: #1A1A2E;
+    }
+
+    p {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #1A1A2E;
+        padding-top: 2%;
+    }
+}
+
+.cinquiemeSection {
+    h4 {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 85px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 5%;
+    }
+
+    h5 {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 42px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 5%;
+    }
+}
+
+.sixiemeSection {
+    h5 {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 85px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .secondContainer {
+        article {
+            h6 {
+                font-family: Averta CY;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 42px;
+                color: #1A1A2E;
+                padding-top: 35%;
+                padding-left: 10%;
+            }
+
+            p {
+                font-family: Averta CY;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 25px;
+                color: #1A1A2E;
+                padding-left: 10%;
+                padding-top: 5%;
+
+            }
+        }
+    }
+
+    .troisimeContainer {
+        h6 {
+            font-family: Averta CY;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 42px;
+            color: #1A1A2E;
+            margin-top: 15%;
+            padding-left: 5%;
+        }
+
+        p {
+            font-family: Averta CY;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 25px;
+            color: #1A1A2E;
+            padding-top: 3%;
+            padding-left: 5%;
+
+        }
+    }
+}
+
+.email {
+    h6 {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+
+    .premierPara {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        color: #FFFFFF;
+    }
+
+    .secondPara {
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        padding-left: 3%;
+        width: 90%;
+        color: #FFFFFF;
+    }
+}
+
+footer {
+    li {
+        list-style: none;
+        font-family: Averta CY;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: right;
+        color: #FFFFFF;
+        padding-right: 5%;
+    }
+
+    li:nth-child(4) {
+        opacity: 0.5;
+    }
+}
