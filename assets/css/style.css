@@ -67,7 +67,7 @@ h2 {
   line-height: 25px;
   color: #1A1A2E; }
 
-.divQuatre h4 {
+.divQuatre h2 {
   font-family: Averta CY;
   font-style: normal;
   font-weight: 600;
@@ -84,7 +84,7 @@ h2 {
   color: #1A1A2E;
   padding-top: 2%; }
 
-.cinquiemeSection h4 {
+.cinquiemeSection h3 {
   font-family: Averta CY;
   font-style: normal;
   font-weight: 800;
@@ -94,7 +94,7 @@ h2 {
   text-transform: uppercase;
   color: #FFFFFF;
   padding-top: 5%; }
-.cinquiemeSection h5 {
+.cinquiemeSection h4 {
   font-family: Averta CY;
   font-style: normal;
   font-weight: 600;
@@ -112,7 +112,7 @@ h2 {
   color: #FFFFFF;
   padding-top: 5%; }
 
-.sixiemeSection h5 {
+.sixiemeSection h3 {
   font-family: Averta CY;
   font-style: normal;
   font-weight: 800;
@@ -220,27 +220,44 @@ footer li:nth-child(4) {
   padding: 0;
   scroll-behavior: smooth; }
 
-.menuMobile {
+.mobilevideo {
+  display: none; }
+
+.player {
+  display: none; }
+
+.onlyMobile {
+  display: none; }
+
+.toggle {
+  display: none; }
+
+.open {
+  display: block; }
+
+.ferme {
   display: none; }
 
 header {
-  display: flex;
-  padding-top: 1%;
-  padding-left: 10%;
-  padding-right: 6%;
-  align-items: baseline;
-  justify-content: space-between; }
+  padding-left: 5%;
+  padding-right: 5%; }
   header img {
     width: 124px;
     height: 31px; }
+  header .menu {
+    display: flex;
+    padding-left: 5%;
+    align-items: center; }
   header nav {
-    margin-right: 5%; }
-    header nav ul {
-      display: flex;
-      align-items: baseline; }
-      header nav ul li {
-        list-style: none;
-        padding-left: 5%; }
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%; }
+    header nav ul li {
+      list-style: none;
+      padding-left: 5%; }
 
 .firstSection article {
   margin-top: 13%;
@@ -369,7 +386,7 @@ footer {
     padding-top: 3%; }
   footer img {
     position: absolute;
-    top: 36%;
+    top: 50%;
     left: 5%; }
 
 .footerMobile {
@@ -472,65 +489,6 @@ header nav ul li .nav:hover {
 .button {
   border: none;
   background: none; }
-
-.path-slider {
-  display: inline-block;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-40%);
-  -ms-transform: translateY(-40%);
-  transform: translateY(-40%); }
-
-path {
-  stroke-width: 1px;
-  stroke: none;
-  fill: none; }
-
-.icon__path {
-  fill: #FFFFFF; }
-
-.path-slider__path {
-  stroke: red; }
-
-.path-slider__item {
-  position: absolute;
-  left: -37px;
-  top: -37px;
-  color: #FFFFFF;
-  cursor: pointer;
-  -webkit-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  text-decoration: none;
-  outline: none; }
-
-.path-slider__item:hover .item__circle,
-.path-slider__item:focus .item__circle {
-  background-color: #45905e; }
-
-.item__circle {
-  display: inline-block;
-  width: 74px;
-  height: 74px;
-  background-color: #55B375;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
-  border-radius: 100%;
-  text-align: center;
-  transition: 0.5s; }
-
-.item__icon {
-  width: 258px;
-  height: 197px;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
-
-.path-slider__current-item .item__circle {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5); }
 
 .swiper-pagination-bullet:nth-child(1) {
   background: #8EB9A4; }
@@ -1215,50 +1173,69 @@ button.swiper-pagination-bullet {
   outline: none;
   border: none; }
 
-[class*="reveal-"] {
-  opacity: 0;
-  transform: translateY(-30px);
-  -webkit-transform: translateY(-30px);
-  -moz-transform: translateY(-30px);
-  -ms-transform: translateY(-30px);
-  -o-transform: translateY(-30px); }
-
-.reveal-visible {
-  opacity: 1;
-  transform: translateY(0px);
-  transition: .9s; }
-
-.reveal-1 {
-  transition-delay: .5s; }
-
-.reveal-2 {
-  transition-delay: .8s; }
-
-.reveal-3 {
-  transition-delay: .10s; }
-
-.reveal-4 {
-  transition-delay: .12s; }
-
-.boiteJaune {
-  transition-delay: .12s; }
-
 @media (max-width: 430px) {
-  .menuMobile {
+  .toggle {
+    display: block;
+    position: relative;
+    z-index: 20; }
+
+  .logo {
+    position: relative;
+    z-index: 20; }
+
+  .ouvrir {
     display: block; }
+
+  .fermer {
+    display: none; }
+
+  .open .ouvrir {
+    display: none; }
+
+  .open .fermer {
+    display: block; }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #F4F4F5;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: none;
+    padding-top: 20%;
+    transform: translateX(-100%);
+    transition: transform 1s; }
+
+  .open .menu {
+    transform: translateX(0); }
+
+  header nav ul li {
+    padding-top: 20%;
+    margin-right: 18%; }
+
+  header {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 0%; }
+
+  .mobilevideo {
+    display: block; }
+
+  .desktopvideo {
+    display: none; }
+
+  iframe {
+    width: 315px;
+    height: 179.24px; }
 
   .quatriemeSectionBis .swiper-horizontal > .swiper-pagination-bullets, .quatriemeSectionBis .swiper-pagination-bullets.swiper-pagination-horizontal, .quatriemeSectionBis .swiper-pagination-custom, .quatriemeSectionBis .swiper-pagination-fraction {
     margin-left: 0%; }
 
   .secondSection ul {
     justify-content: center; }
-
-  header {
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 0%; }
-    header .Desktop {
-      display: none; }
 
   .firstSection {
     background-image: url(../images/backgroundmobile.jpg); }
@@ -1316,13 +1293,13 @@ button.swiper-pagination-bullet {
       margin-left: 15%; }
     .quatriemeSectionBis .divQuatre p {
       text-align: center; }
-    .quatriemeSectionBis .divQuatre h4 {
+    .quatriemeSectionBis .divQuatre h2 {
       width: 100%;
       text-align: center; }
 
   .cinquiemeSection {
     height: 1805px; }
-    .cinquiemeSection h4 {
+    .cinquiemeSection h3 {
       font-size: 40px;
       line-height: 49px;
       text-align: center; }
@@ -1345,7 +1322,7 @@ button.swiper-pagination-bullet {
     padding-left: 5%; }
   .sixiemeSection .boiteJaune {
     width: 275px; }
-  .sixiemeSection h5 {
+  .sixiemeSection h3 {
     font-size: 35px;
     width: 100%;
     line-height: 45px; }

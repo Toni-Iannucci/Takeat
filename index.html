@@ -2,9 +2,11 @@
 <html lang="fr">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takeat</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="favicon.ico" />
@@ -16,45 +18,54 @@
 
 <body>
     <section class="firstSection">
-        <div class="navigationMobile">
-            <header>
-                <img src="assets/images/log03.svg" alt="logo">
-                    <div class="btn-toggle-container" role="button">
-                        <img src="assets/images/menu.svg" alt="menu" class="menuMobile">
-             </div>
-                <nav class="Desktop">
-                    <ul>
-                        <li>
-                            <a class="nav" href="#quatriemeSection" alt="Lunchbox">Lunchbox</a>
-                        </li>
-                        <li>
-                            <a class="nav" href="#cinquiemeSection" alt="Application">Application</a>
-                        </li>
-                        <li>
-                            <a class="nav" href="#sixiemeSection">Caractéristiques</a>
-                        </li>
-                        <li>
+        <header>
+            <nav>
+            <img src="assets/images/log03.svg" alt="logo" class="logo">
 
-                            <a class="btnPreco" href="">Précommander</a>
+            <div class="toggle" role="button">
+                <img src="assets/images/menu.svg" alt="menu" class="ouvrir">
+                <img src="assets/images/croix.svg" alt="croix" class="fermer">
+            </div>
+                <ul class="menu">
+                    <li>
+                        <a class="nav" href="#quatriemeSection" alt="Lunchbox">Lunchbox</a>
+                    </li>
+                    <li>
+                        <a class="nav" href="#cinquiemeSection" alt="Application">Application</a>
+                    </li>
+                    <li>
+                        <a class="nav" href="#sixiemeSection" alt="Caractéristiques">Caractéristiques</a>
+                    </li>
+                    <li>
 
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <article>
-                <p class="firstText">Takeat</p>
-                <h1>Lunchbox Connectée</h1>
-                <p class="secondText">Un repas chaud et équilibré partout où vous allez.</p>
-            </article>
+                        <a class="btnPreco" href="" alt="Précommande">Précommander</a>
+
+                    </li>
+
+
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <p class="firstText">Takeat</p>
+            <h1>Lunchbox Connectée</h1>
+            <p class="secondText">Un repas chaud et équilibré partout où vous allez.</p>
+        </article>
     </section>
+
     </div>
     <section class="secondSection">
         <div class="divDeux">
             <article class="firstArticle ">
-                <div class="video"></div>
+                <img src=" ../Takeat/assets/images/video.png" alt="videothumbnail" class="thumbnail desktopvideo">
+                <img src=" ../Takeat/assets/images/videomobile.png" alt="videothumbnailMobile" class="thumbnail mobilevideo">
+                <div class="player playerMobile"><iframe width="710" height="399.88"
+                        src="https://www.youtube.com/embed/cE3YMmlc7ww" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="video"></iframe></div>
             </article>
             <article class="secondArticle ">
-                <h2>Découvrez Takeat</h3>
+                <h2>Découvrez Takeat</h2>
                     <p>Takeat est une lunchbox connectée qui vous permettra de chauffer facilement votre nourriture et
                         de surveiller votre alimentation grâce à son application bientôt disponible.</p>
                     <div class="buttonDiv">
@@ -62,7 +73,7 @@
                             <li>
                                 <button class="button">
                                     <a href="https://www.apple.com/fr/app-store/" target="_blank"
-                                        class="market-btn apple-btn" role="button">
+                                        class="market-btn apple-btn" role="button" alt="AppleStore">
                                         <img src="../Takeat/assets/images/Apple.svg" alt="Applestore" srcset=""
                                             class="applestore">
                                     </a>
@@ -71,7 +82,7 @@
                             <li>
                                 <button class="button">
                                     <a href="https://play.google.com/store/apps?hl=fr&gl=US" target="_blank"
-                                        class="market-btn apple-btn" role="button">
+                                        class="market-btn apple-btn" role="button" alt="PlayStore">
                                         <img src="../Takeat/assets/images/Playstore.svg" alt="Playstore" srcset="">
                                     </a>
                                 </button>
@@ -86,15 +97,15 @@
     <section class="troisiemeSection">
         <div class="divTrois">
             <article>
-                <img src="../Takeat/assets/images/image01.png" alt="">
+                <img src="../Takeat/assets/images/image01.png" alt="lunchbox">
                 <p class="deuxiemeTexte">Maintenez vos aliments au chaud</p>
             </article>
             <article>
-                <img src="../Takeat/assets/images/image02.png" alt="">
+                <img src="../Takeat/assets/images/image02.png" alt="application">
                 <p class="deuxiemeTexte">Gardez un oeil sur votre alimentation</p>
             </article>
             <article>
-                <img src="../Takeat/assets/images/image03.png" alt="">
+                <img src="../Takeat/assets/images/image03.png" alt="Application design">
                 <p class="troisiemeTexte">Contrôlez la température avec votre smartphone</p>
             </article>
         </div>
@@ -105,7 +116,7 @@
         <div class="divQuatre">
             <article>
 
-                <h4>Profiez de coloris exclusifs pour votre lunchbox</h4>
+                <h2>Profiez de coloris exclusifs pour votre lunchbox</h2>
                 <p>Avec 6 coloris différents,<br>
                     choisissez celle qui vous ressemble.</p>
                 <div class="swiper-pagination desktop"></div>
@@ -113,40 +124,40 @@
         </article>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="assets/images/Vert.svg"></div>
-                <div class="swiper-slide"><img src="assets/images/Bleu.svg"></div>
-                <div class="swiper-slide"><img src="assets/images/Orange.svg"></div>
-                <div class="swiper-slide"><img src="assets/images/Gris.svg"></div>
-                <div class="swiper-slide"><img src="assets/images/Rouge.svg"></div>
-                <div class="swiper-slide"><img src="assets/images/Violet.svg"></div>
+                <div class="swiper-slide"><img src="assets/images/Vert.svg" alt="Lunchbox verte"></div>
+                <div class="swiper-slide"><img src="assets/images/Bleu.svg" alt="Lunchbox bleu"></div>
+                <div class="swiper-slide"><img src="assets/images/Orange.svg" alt="Lunchbox Orange"></div>
+                <div class="swiper-slide"><img src="assets/images/Gris.svg" alt="Lucnhbox grise"></div>
+                <div class="swiper-slide"><img src="assets/images/Rouge.svg" alt="Lunchbox Rouge"></div>
+                <div class="swiper-slide"><img src="assets/images/Violet.svg" alt="Lunchbox Violet"></div>
             </div>
         </div>
     </section>
     <section class="cinquiemeSection" id="cinquiemeSection">
-        <h4>MANGEZ <br>INTELLIGEMENT</h4>
+        <h3>MANGEZ <br>INTELLIGEMENT</h3>
         <div class="container">
             <article>
-                <img src="../Takeat/assets/images/Mockup_1.png" alt="telephone" class="telephone" data-parallax="0.2">
+                <img src="../Takeat/assets/images/Mockup_1.png" alt="telephone" class="telephone">
             </article>
             <article class="liste">
                 <div class="" data-aos="fade-in" data-aos-offset="200">
-                    <h5>Chauffez vos aliments</h5>
+                    <h4>Chauffez vos aliments</h4>
                     <p>Plus besoin de perdre du temps devant le micro-onde,<br> programmez vous même l'heure à laquelle
                         <br>vous voulez manger.</p>
                 </div>
                 <div class="" data-aos="fade-in" data-aos-offset="300">
-                    <h5>
+                    <h4>
                         Suivez vos repas <br> et vos calories
-                    </h5>
+                    </h4>
                     <p>Prenez en photo votre plat, et l’application vous <br> indiquera les apports caloriques.</p>
                 </div>
                 <div class="" data-aos="fade-in" data-aos-offset="400">
-                    <h5>La recette du succès</h5>
+                    <h4>La recette du succès</h4>
                     <p>Chaque jour, une petite astuce pour en savoir <br>plus sur les aliments que vous consommez.</p>
                 </div>
                 <div class="" data-aos="fade-in" data-aos-offset="500">
-                    <h5>Choisissez des recettes<br>
-                        selon votre alimentation</h5>
+                    <h4>Choisissez des recettes<br>
+                        selon votre alimentation</h4>
                     <p>Plus de 300 recettes disponibles selon la saison <br>de l’année et selon votre régime
                         alimentaire. </p>
                 </div>
@@ -157,8 +168,8 @@
         <div class="container02">
             <div class="premiereDiv">
                 <img src="../Takeat/assets/images/Jaune01.svg" alt="boiteJaune" class="boiteJaune">
-                <h5>Caractéristiques
-                    techniques</h5>
+                <h3>Caractéristiques
+                    techniques</h3>
             </div>
             <div class="secondContainer">
                 <img src="../Takeat/assets/images/Render020.jpg" alt="Render">
@@ -235,8 +246,8 @@
 
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
     <script src="swiper.js"></script>
+    <script src="app.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
