@@ -1,0 +1,310 @@
+@media (max-width: 430px) {
+    .menuMobile{
+        display: block;
+    }
+    .quatriemeSectionBis .swiper-horizontal > .swiper-pagination-bullets, .quatriemeSectionBis .swiper-pagination-bullets.swiper-pagination-horizontal, .quatriemeSectionBis .swiper-pagination-custom, .quatriemeSectionBis .swiper-pagination-fraction{
+margin-left: 0%;
+    }
+    .secondSection ul{
+        justify-content: center;
+    }
+    header {
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 0%;
+        .Desktop {
+            display: none;
+        }
+    }
+
+    
+
+    .firstSection {
+        background-image: url(../images/backgroundmobile.jpg);
+
+        article {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30%;
+        }
+        .secondText {
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            width: 65%;
+        }
+
+        .firstText {
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 42px;
+            line-height: 46px;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    .secondSection {
+        .divDeux {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        .video {
+            width: 315px;
+            height: 179.24px;
+            background-image: url(../images/videoBackgroundMobile.jpg);
+        }
+
+        h2 {
+            width: 100%;
+        }
+
+        ul {
+            margin-top: 1%;
+            display: flex;
+
+            li {
+                padding-right: 5%;
+            }
+        }
+    }
+
+    .quatriemeSectionBis {
+        flex-direction: column;
+
+        .mobile {
+            display: block;
+        }
+
+        .swiper {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-left: 25%;
+            margin-top: 7%;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            margin-left: 15%;
+        }
+
+        .divQuatre p {
+            text-align: center;
+        }
+
+        .divQuatre h4 {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .cinquiemeSection {
+        height: 1805px;
+
+        h4 {
+            font-size: 40px;
+            line-height: 49px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 22px
+        }
+
+        .container {
+            display: flex;
+            margin-top: 7%;
+            flex-direction: column-reverse;
+
+            article {
+                margin-top: 10%;
+            }
+        }
+
+        .liste {
+            margin: 0%;
+        }
+
+        .telephone {
+            padding-left: 10%;
+        }
+    }
+
+    .sixiemeSection {
+        .premierPara {
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+        .boiteJaune {
+            width: 275px;
+        }
+
+        h5 {
+            font-size: 35px;
+            width: 100%;
+            line-height: 45px;
+
+
+        }
+
+        .premiereDiv {
+            width: 380px;
+            height: 366px;
+        }
+
+        .secondContainer {
+            flex-direction: column;
+            padding-top: 5%;
+            align-items: center;
+
+            img {
+                width: 380px;
+                height: 366px;
+            }
+
+            article {
+                width: 380px;
+                height: 436px;
+                margin-top: 6%;
+
+                h6 {
+                    padding-top: 21%;
+                    padding-left: 0%;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                    padding-left: 0%;
+                }
+            }
+        }
+
+        .troisimeContainer {
+            width: 380px;
+            height: 518px;
+            background-image: url(../images/render06.png);
+            margin-top: 5%;
+
+            h6 {
+                margin-top: 65%;
+                padding-left: 0%;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                padding-left: 0%;
+                padding-top: 6%;
+            }
+        }
+
+        .quatriemeContainer {
+            width: 380px;
+            height: 518px;
+            background-image: url(../images/render07.png);
+            margin-top: 5%;
+
+            h6 {
+                margin-top: 65%;
+                padding-left: 0%;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                padding-left: 0%;
+                padding-top: 6%;
+            }
+        }
+
+        .email {
+            width: 380px;
+            height: 543px;
+            background: #1A1A2E;
+            border-radius: 12px;
+
+            h6 {
+                text-align: center;
+            }
+
+            .premierPara {
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+            }
+
+            .email02 {
+                padding-left: 0%;
+            }
+
+            .inputEmail {
+                width: 275px;
+                height: 36px;
+            }
+
+            .submit {
+                position: absolute;
+
+                bottom: 10%;
+                left: 25%;
+            }
+
+            .secondPara {
+                padding-left: 10%;
+                width: 85%;
+                padding-top: 5%;
+            }
+
+            .checkbox {
+                bottom: 39.5%;
+                left: 4%;
+            }
+
+            .inputEmail {
+                margin-left: 10%;
+                margin-top: 5%;
+            }
+        }
+
+    }
+
+    footer {
+        height: 100px;
+
+        .footerDesktop {
+            display: none;
+        }
+
+        .footerMobile {
+            display: block;
+            text-align: center;
+
+            p {
+                opacity: 0.5;
+                text-align: center;
+                font-family: Averta CY;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 22px;
+                padding-top: 10%;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+}

@@ -1,34 +1,43 @@
-header{
-    nav{
-        ul{
-            li{
-                .nav:hover{
-                   
-                    text-decoration:underline red;
-                    text-underline-offset:20%;
-                    text-decoration-thickness: 8px;
+header {
+    nav {
+        ul {
+            li {
+
+                .nav {
+                    transition: .5s all;
+                    transition-delay: 5s;
+                }
+
+                .nav:hover {
+
+                    text-decoration: underline #000000;
+                    text-underline-offset: 50%;
+                    text-decoration-thickness: 2px;
+                    border-radius: 12px;
+                    transition: 1s;
+
                 }
             }
         }
     }
-    
+
 }
-    .btnPreco {
-        background-color: #FF5C58;
-        border-radius:12px;
-        border:none;
-        cursor:pointer;
-        color:#ffffff;
-        font-family:'Averta Cy';
-        font-size:18px;
-        padding:7px 24px;
-        text-decoration:none;
-        font-weight: 600;
-        text-decoration: none;
-    }
-    .button{
-        border: none;
-        background: none;
-    }
-   
-    
+
+.btnPreco {
+    background-color: #FF5C58;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Averta Cy';
+    font-size: 18px;
+    padding: 7px 24px;
+    text-decoration: none;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button {
+    border: none;
+    background: none;
+}

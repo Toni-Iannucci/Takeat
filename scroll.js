@@ -1,28 +1,17 @@
+// afficher au scroll
 
-const ratio =0.7
+const ratio =0.6
 const options = {
 	root:null,
 	rootMargin:'0px',
-	threshold:ratio
+	threshold:1.0,
 }
-const handleIntersect = function(entries, observer) {
-	entries.forEach(function(entry){
-		if(entry.intersectionRatio > ratio) {
-			entry.target.classList.add('reveal-visible')
-			observer.unobserve(entry.target)
-		}
-	})
-}
-const observer = new IntersectionObserver(handleIntersect, options);
-document.querySelectorAll('[class*="reveal-"]').forEach(function(r){
-	observer.observe(r)
-})
-
-var image = document.getElementsByClassName('telephone');
-new simpleParallax(image,{
-	overflow:true,
-	scale:1,
-});
 
 
+
+// Parralax 
+
+
+
+imageArray = ["Mockup_1.png","Mockup_4.png","Mockup_2.png","Mockup_3.png"]
 

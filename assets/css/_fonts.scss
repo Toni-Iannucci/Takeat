@@ -190,7 +190,7 @@ h2 {
         }
     }
 
-    .troisimeContainer {
+    .troisimeContainer{
         h6 {
             font-family: Averta CY;
             font-style: normal;
@@ -214,6 +214,31 @@ h2 {
 
         }
     }
+    .quatriemeContainer{
+        h6 {
+            font-family: Averta CY;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 42px;
+            color: #1A1A2E;
+            margin-top: 15%;
+            padding-left: 5%;
+        }
+
+        p {
+            font-family: Averta CY;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 25px;
+            color: #1A1A2E;
+            padding-top: 3%;
+            padding-left: 5%;
+
+        }
+    }
+
 }
 
 .email {

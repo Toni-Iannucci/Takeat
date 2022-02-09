@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
-
+.menuMobile{
+    display: none;
+}
 header {
     display: flex;
     padding-top: 1%;
@@ -88,7 +91,7 @@ li {
     display: flex;
     margin: 5% auto;
     justify-content: center;
-    margin: 5% auto;
+    flex-wrap: wrap;
 
     article {
         width: 267px;
@@ -225,4 +228,7 @@ footer{
         left: 5%;
       }
     
+}
+.footerMobile{
+    display: none;
 }
